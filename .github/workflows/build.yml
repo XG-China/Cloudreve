@@ -34,22 +34,22 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cloudreve_windows_amd64
-          path: release/cloudreve*windows_amd64.*
+          path: release/cloudreve__windows_amd64.*
 
       - name: Upload binary files (linux_amd64)
         uses: actions/upload-artifact@v2
         with:
           name: cloudreve_linux_amd64
-          path: release/cloudreve*linux_amd64.*
+          path: release/cloudreve__linux_amd64.*
 
       - name: Upload binary files (linux_arm)
         uses: actions/upload-artifact@v2
         with:
           name: cloudreve_linux_arm
-          path: release/cloudreve*linux_arm.*
+          path: release/cloudreve__linux_arm.*
 
       - name: Upload binary files (linux_arm64)
         uses: actions/upload-artifact@v2
         with:
           name: cloudreve_linux_arm64
-          path: release/cloudreve*linux_arm64.*
+          path: release/cloudreve__linux_arm64.*
